@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Prova" Database="" Version="10.0.0">
+  <Project Name="Numero-intero-doppio" Path="Numero-intero-doppio/Numero-intero-doppio.project" Active="No"/>
+  <Project Name="Moltiplicatore" Path="Moltiplicatore/Moltiplicatore.project" Active="No"/>
+  <Project Name="AreaRettangolo" Path="AreaRettangolo/AreaRettangolo.project" Active="No"/>
+  <Project Name="Eq-grado-2" Path="Eq-grado-2/Eq-grado-2.project" Active="No"/>
+  <Project Name="Somma3Consecutivi" Path="Somma3Consecutivi/Somma3Consecutivi.project" Active="No"/>
+  <Project Name="Somma3Consecutivi" Path="Somma3Consecutivi/Somma3Consecutivi.project" Active="No"/>
+  <Project Name="Somma3Consecutivi" Path="Somma3Consecutivi/Somma3Consecutivi.project" Active="No"/>
+  <Project Name="ProveVisual" Path="ProveVisual/ProveVisual.project" Active="No"/>
+  <Project Name="IstrCondizionali1" Path="IstrCondizionali1/IstrCondizionali1.project" Active="No"/>
+  <Project Name="Es3_IstrCond2" Path="Es3_IstrCond2/Es3_IstrCond2.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Prova" ConfigName="Debug"/>
+      <Project Name="Numero-intero-doppio" ConfigName="Debug"/>
+      <Project Name="Moltiplicatore" ConfigName="Debug"/>
+      <Project Name="AreaRettangolo" ConfigName="Debug"/>
+      <Project Name="Eq-grado-2" ConfigName="Debug"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Debug"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Debug"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Debug"/>
+      <Project Name="ProveVisual" ConfigName="Debug"/>
+      <Project Name="IstrCondizionali1" ConfigName="Debug"/>
+      <Project Name="Es3_IstrCond2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Prova" ConfigName="Release"/>
+      <Project Name="Numero-intero-doppio" ConfigName="Release"/>
+      <Project Name="Moltiplicatore" ConfigName="Release"/>
+      <Project Name="AreaRettangolo" ConfigName="Release"/>
+      <Project Name="Eq-grado-2" ConfigName="Release"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Release"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Release"/>
+      <Project Name="Somma3Consecutivi" ConfigName="Release"/>
+      <Project Name="ProveVisual" ConfigName="Release"/>
+      <Project Name="IstrCondizionali1" ConfigName="Release"/>
+      <Project Name="Es3_IstrCond2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
