@@ -7,15 +7,16 @@ void stampaCasi(int uguali, int coppia2); // stampa i casi
 int main() {
 	int interi[4];
 	int i, uguali, coppia2;
-	printf("Ciao utente, inserisci 4 interi e io controllo quali sono uguali fra di loro :\n");
+	printf("Ciao utente, inserisci 4 interi e io controllo quali sono uguali fra di loro:\n");
 	for(i=0; i<4; i++){
 		scanf("%d", &interi[i]);
-	}
+	} // inserimento array
+	{
 	printf("\narray letto:\n");
 	for(i=0; i<4; i++){
 		printf("%d\n", interi[i]);
 	}
-	printf("\n");
+	printf("\n");} // Array letto
 	uguali=quantiUguali(interi);
 	stampaCasi(uguali, coppia2);
 }
@@ -23,6 +24,12 @@ int main() {
 int quantiUguali(int *interi){
 	int same, i, j;
 	printf("sono entrato nella funzione quantiUguali\n\n" );
+	/*	due cicli for per controllare tutte le combinazioni possibili
+			ad esempio:
+			0-1		0-2		0-3
+			1-2		1-3
+			2-3
+	*/
 	for(i=0; i<3; i++){
 		for(j=i+1; j<4; j++){
 			printf("elemento: %d\t=\telemento: %d\n", interi[i], interi[j]);
@@ -52,5 +59,5 @@ void stampaCasi(int uguali, int coppia2){
 			case 6:
 			printf("\nCi sono esattamente 4 numeri fra loro uguali\n");
 			break;
-			}
+		} // tutti i casi possibili
 }
