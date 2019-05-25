@@ -35,17 +35,27 @@ void testPrimaLeAPoiLeZ() {
   char stringa3[]="z000a";
   primaLeAPoiLeZ(stringa3);
   printf("Test primaLeAPoiLeZ(\"z000a\"): Atteso = \"a000z\", Calcolato = \"%s\"\n", stringa3);
+  /* stringa già a posto */
+  char stringa4[] = "aaahfdkjzzz";
+  primaLeAPoiLeZ(stringa4);
+  printf("Test primaLeAPoiLeZ(\"aaahfdkjzzz\"): Atteso = \"aaahfdkjzzz\", Calcolato = \"%s\" \n", stringa4);
+
+  /* stringa con diversi caratteri fuori posto */
+  char stringa5[] = "0abaczzaa00z";
+  primaLeAPoiLeZ(stringa5);
+  printf("Test primaLeAPoiLeZ(\"0abaczzaa00z\"): Atteso = \"aaaa0bc00zzz\", Calcolato = \"%s\" \n", stringa5);
 }
 
 int main() {
   char stringa[50];
-  int newline;
-  printf("Ciao utente inserisci una stringa:\t");
+  printf("Ciao, sono un programma che legge una stringa e riordina\n");
+  printf("i caratteri in maniera tale che che le 'a' compaiono nelle prime posizioni\n");
+  printf("mentre le 'z' compaiono nelle ultime posizioni.\n");
+  printf("\nInserisci una stringa:\t");
   fgets(stringa, 50, stdin);
-  newline = strlen (stringa) - 1;
-  stringa[newline] = '\0';
+  stringa[strlen(stringa)-1] = '\0';
   primaLeAPoiLeZ(stringa);
-  printf("%s\n", stringa);
+  printf("Ecco la stringa modificata:\t%s\n\n", stringa);
   testPrimaLeAPoiLeZ();
   return 0;
 }
